@@ -14,6 +14,11 @@ cd ClickJacker
 sudo chmod +x *
 ```
 
+## Subfinder Installation:
+```javascript
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+```
+
 ### Usage:
 ```javascript
 ./exploit.sh
