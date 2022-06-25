@@ -8,6 +8,9 @@ Copy the command and paste it on terminal
 git clone https://github.com/bughuntar/ClickJacker.git
 ```
 ```javascript
+cd ClickJacker
+```
+```javascript
 sudo chmod +x *
 ```
 
