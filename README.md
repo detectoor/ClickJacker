@@ -36,5 +36,12 @@ python file.py domains.txt
 >Go to your terminal and Install the tool. Then run the bash file `exploit.sh` and type your main domain or run the `file.py`. It will show you possible vulnerable subdomains with Verification link. Click on that link to verify the bug is valid or not.
 
 
-### exploit.sh --> It will enumerate subdomains then start Scanning (Auto)
-### file.py --> It will scan your provided domains.txt
+### Automated:
+```javascript
+./exploit.sh
+```
+
+### Manual:
+```javascript
+python file.py domains.txt
+```
