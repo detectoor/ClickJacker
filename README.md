@@ -3,7 +3,7 @@
 
 **Installation:**
 ```javascript
-git clone 
+git clone https://github.com/bughuntar/ClickJacker.git
 sudo chmod +x *
 ```
 
