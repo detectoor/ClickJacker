@@ -30,7 +30,7 @@ def main():
         status = check(site)
 
         if status:
-            print(Fore.RED+" [+] "+Fore.LIGHTYELLOW_EX+site.split('\n')[0]+Fore.RED+" may be vulnerable to Clickjacking!   "+Fore.WHITE+"Verification Link:"+Fore.CYAN+"http://web.clickjacker.io/test?url=http://"+site.split('\n')[0])
+            print(Fore.RED+" [+] "+Fore.LIGHTYELLOW_EX+site.split('\n')[0]+Fore.RED+" may be vulnerable to Clickjacking!   "+Fore.WHITE+"Verification Link: "+Fore.CYAN+"http://web.clickjacker.io/test?url=http://"+site.split('\n')[0])
 
         elif not status: print(Fore.GREEN+" [-] " + Fore.MAGENTA+site.split('\n')[0]+Fore.GREEN+" is not vulnerable!")
         else: print(Fore.RED+'Every single thing is crashed, Python got mad, Brother... Install it again or Send me Email: bughuntar@gmail.com')
