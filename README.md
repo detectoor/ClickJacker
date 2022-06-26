@@ -14,13 +14,15 @@ cd ClickJacker
 sudo chmod +x *
 ```
 
-**Subfinder:**
+**Dependencies:**
 ```javascript
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
-**Colorama:**
 ```javascript
 sudo pip3 install colorama
+```
+```javascript
+sudo apt-get update figlet
 ```
 
 ### Usage:
