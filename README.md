@@ -22,7 +22,7 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 sudo pip3 install colorama
 ```
 ```javascript
-sudo apt-get update figlet
+sudo apt-get install figlet
 ```
 
 ### Usage:
