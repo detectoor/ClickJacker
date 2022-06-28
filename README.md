@@ -5,24 +5,12 @@
 Copy the command and paste it on terminal
 
 ```javascript
-git clone https://github.com/bughuntar/ClickJacker.git
-```
-```javascript
-cd ClickJacker
-```
-```javascript
-sudo chmod +x *
+git clone https://github.com/bughuntar/ClickJacker.git && cd ClickJacker && sudo chmod +x *
 ```
 
 **Dependencies:**
 ```javascript
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-```
-```javascript
-sudo pip3 install colorama
-```
-```javascript
-sudo apt-get install figlet
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest && sudo pip3 install colorama && sudo apt-get install figlet
 ```
 
 ### Usage:
